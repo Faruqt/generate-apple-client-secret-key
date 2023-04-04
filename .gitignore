@@ -1,0 +1,30 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+#flask
+env
+logs
+.env
+/env
+
+#db sql
+
+#cache
+__pycache__
+core/__pycache__
+/__pycache__
+.pytest_cache
+
+# Python
+*.py[cod]
+*.$py.class
+
+# VS Code
+*.vscode
+**/.vscode/
