@@ -28,9 +28,12 @@ filename=your_key_filename.p8
 key_id=your_key_id
 ```
 
-3. Run ```pip install -r requirements.txt``` to install the dependencies
-4. Move your private key file to the root of the project
-4. Run ```python generate_client_secret.py``` to generate a new client secret key
+3. Create a new virtual environment and activate it
+	- Create ```python3 -m venv env```
+	- Activate ```source env/bin/activate``` (Linux/MacOS)
+4. Run ```pip install -r requirements.txt``` to install the dependencies
+5. Move your private key file to the root of the project
+6. Run ```python generate_client_secret.py``` to generate a new client secret key
 
 ## References
 
